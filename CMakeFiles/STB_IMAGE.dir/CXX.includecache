@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/anna/TOSHIBA EXT/mashgraph/10_opengl_ex0_triangle/opengl_ex0_triangle/stb_image.cpp
+stb_image.h
+/media/anna/TOSHIBA EXT/mashgraph/10_opengl_ex0_triangle/opengl_ex0_triangle/stb_image.h
+

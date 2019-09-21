@@ -1,0 +1,3 @@
+/media/anna/TOSHIBA EXT/mashgraph/10_opengl_ex0_triangle/opengl_ex0_triangle/CMakeFiles/rebuild_cache.dir
+/media/anna/TOSHIBA EXT/mashgraph/10_opengl_ex0_triangle/opengl_ex0_triangle/CMakeFiles/main.dir
+/media/anna/TOSHIBA EXT/mashgraph/10_opengl_ex0_triangle/opengl_ex0_triangle/CMakeFiles/edit_cache.dir

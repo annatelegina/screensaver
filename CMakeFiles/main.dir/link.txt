@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/main.dir/glad.c.o CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/ShaderProgram.cpp.o  -o main /usr/lib/x86_64-linux-gnu/libGL.so /usr/lib/x86_64-linux-gnu/libglfw.so.3.2 -lrt -ldl 
