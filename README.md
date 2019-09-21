@@ -1,40 +1,15 @@
+# Screensaver based on OpenGL
 
-В задании используются библиотеки glm, stb.
-Установить glm командой в Linux:
+# Run
+Before executing, install following packages:
+    1) for glm: sudo apt-get install libglm-dev
+    2) for stb: git clone https://github.com/nothings/stb.git && cp ./stb/stb_image.h
 
-sudo apt-get install libglm-dev
+mkdir build && cd build && cmake .. && make && ./main
 
-Из библиотеки stb использется stb_image.h, он уже находится в корне проекта.
-(Скачивала такой командой: git clone https://github.com/nothings/stb.git && cp ./stb/stb_image.h <директория корня проекта>)
-
-Запуск задания:
-
-1) mkdir build
-2) cd build
-3) cmake ..
-4) make
-5) ./main
-
-В проекте реализовано:
-
------------------------------------
-| № | Название            | Баллы |
------------------------------------
-| 1 | Базовая часть       |   10  |
------------------------------------
-| 2 | Использование фона  |       |
-|   |   с текстурой       |   1   |
------------------------------------
-| 3 | Тестура на фигуре   |   1   |
------------------------------------
-| 4 | Прозрачные фигуры   |   2   |
------------------------------------
-| 5 | Управление фигурой  |       |
-|   | с помощью клавиатуры|   1   |
------------------------------------
-Замечания:
-1) Реализованное управление фигурой (треугольником) при помощи клавиатуры включает в себя:
-    а) WSAD - движение вперед, влево, назад, вправо;
-    б) R/F - движение вверх/вниз;
-    в) Q/E - движение влево/вправо относительно вертикальной оси треугольника.
-2) ESCAPE - закрытие окна.
+# Options:
+1) Moving of the main triangle:
+    а) WSAD - forward, left, back, right;
+    б) R/F - up, down;
+    д) Q/E - turning to the left/right regarding to vertical axle.
+2) ESCAPE - close.
